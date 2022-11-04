@@ -1,0 +1,371 @@
+*
+{
+    font-size: 10px;
+}
+.background
+{
+    position: relative;
+    top: 0;
+}
+.main 
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 40px;
+}
+.menu
+{
+    background-color: rgba(233, 202, 233, 0);
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: black;
+}
+.logo img
+{
+    border-radius: 50%;
+}
+ul
+{
+    display: flex;
+    gap: 20px;
+    line-height: 40px;
+}
+li
+{
+    list-style: none;
+    transition: ease-in-out all 0.3s;
+}
+li:hover{
+    background-color: rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+    translate: 0px 10px;
+}
+li a
+{
+    text-decoration: none;
+    color: rgba(248, 117, 23, 0.87);
+}
+li a:hover
+{
+    cursor: pointer;
+}
+.icons
+{
+    font-weight: 100;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+
+.content
+{
+    position: absolute;
+    top:100px;
+    right: 140px;
+    display: flex;
+}
+
+.content .sub-content  h2 strong
+{
+    font-size: 55px;
+    color: rgba(133, 32, 7, 0.548);
+    font-family: 'Playfair Display', serif
+}
+.content .sub-content h2
+{
+    font-size: 10px;
+    font-family: 'Dosis', sans-serif;
+    color: darkolivegreen;
+}
+.cont-a
+{
+    width: 260px;
+    margin-right: 100px;
+    height: 340px;
+    background-color: rgb(226, 224, 224);
+    border-radius: 4px;
+    box-shadow: 2px 4px 2px rgb(11, 92, 124);
+    margin-left: 30px;
+    transition: ease-in-out all 0.2s;
+}
+.cont-a img {
+    background-size: cover;
+    border-radius: 30px;
+}
+.cont-a:hover
+{
+    background-color: rgb(252, 141, 113);
+}
+.sub-content p
+{
+    text-align:center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.sub-content p a
+{
+    text-decoration: none;
+    color: blueviolet;
+    font-family: monospace;
+}
+.sub-content button
+{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 120px;
+    height: 40px;
+    border-radius:16px ;
+    border-color: rgb(188, 199, 235);
+    color: darkblue;
+}
+.sub-content button a
+{
+    text-decoration: none;
+}
+.subtitute
+{
+display: flex;
+}
+.subtitute .sub1
+{
+    height: 170px;
+    width: 120px;
+    background: linear-gradient(rgba(219, 67, 250, 0.979),rgb(157, 236, 104));
+    margin-left: 290px;
+    margin-top: -40px;
+    position: absolute;
+    box-shadow: 2px 3px 2px salmon;
+    transition: ease-in-out all 0.5s;
+}
+.subtitute .sub1:hover
+{
+    translate: 0px 20px;
+}
+.subtitute .sub2
+{
+    height: 170px;
+    width: 120px;
+    background: linear-gradient(rgba(215, 90, 243, 0.979),rgba(236, 113, 160, 0.144));
+    margin-left: 460px;
+    margin-top: -40px;
+    position: absolute;
+    box-shadow: 2px 3px 2px salmon;
+    transition: ease-in-out all 0.5s;
+
+}
+.subtitute .sub2:hover
+{
+    translate: 0px 25px;
+    background: linear-gradient(rgba(236, 113, 160, 0.144),rgba(215, 90, 243, 0.979));
+
+}
+.subtitute .sub3
+{
+    height: 170px;
+    width: 120px;
+    background: linear-gradient(rgba(83, 16, 97, 0.979),rgba(122, 247, 39, 0.61));
+    margin-left: 630px;
+    margin-top: -40px;
+    position: absolute;
+    box-shadow: 2px 3px 2px salmon;
+    transition: ease-in-out all 0.5s;
+
+}
+.subtitute .sub3:hover
+{
+    translate: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+.mtab
+{
+    display: flex;
+    gap: 120px;
+}
+.mtab .tab1
+{
+    height: 220px;
+    width: 320px;
+    background-color: rgba(167, 157, 219, 0.726);
+    margin-top: 180px;
+    margin-left: 20px;
+    box-shadow: 2px 3px 2px rgb(146, 93, 199);
+    transition: ease-in-out all 0.5s;
+}
+.mtab .tab1:hover
+{
+    background-color: cadetblue;
+}
+.tab1 h3
+{
+    font-size: 20px;
+    color:cornsilk;
+    font-family: cursive;
+}
+.tab1 p
+{
+    font-size: 15px;
+    color: cyan;
+    line-height:22px;
+}
+.tab1 button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: darkgrey;
+    background: linear-gradient(rgb(238, 236, 236),rgb(214, 231, 241));
+    transition: ease-in-out all 0.3s;
+}
+.tab1 button:hover
+{
+    translate: 0px 3px;
+}
+.tab1 button a
+{
+    text-decoration: none;
+}
+
+
+
+.mtab .tab2
+{
+    height: 220px;
+    width: 320px;
+    background-color: rgba(105, 113, 126, 0.705);
+    margin-top: 180px;
+    margin-right: 20px;
+    box-shadow: 2px 3px 2px rebeccapurple;
+    transition: ease-in-out all 0.5s;
+
+}
+.mtab .tab2:hover
+{
+    background-color: gainsboro;
+}
+.tab2 h2
+{
+    font-size: 20px;
+    color: rgb(109, 65, 89);
+    font-family: cursive;
+} 
+.tab2 p
+{
+    color: rgb(90, 89, 87);
+    font-size: 15px;
+    line-height: 20px;
+}
+.tab2 button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: darkgrey;
+    background: linear-gradient(rgb(238, 236, 236),rgb(214, 231, 241));
+    transition: ease-in-out all 0.3s;
+}
+.tab2 button:hover
+{
+    translate: 0px 3px;
+}
+.tab2 button a
+{
+    text-decoration: none;
+}
+
+
+.mtab1 .tab3
+{
+    height: 220px;
+    width: 320px;
+    background-color: rgba(3, 3, 3, 0.705);
+    margin-top: 80px;
+    margin-left: 200px;
+    box-shadow: 2px 3px 2px rebeccapurple;
+    transition: ease-in-out all 0.5s;
+    
+
+}
+.tab3 h2
+{
+    font-size: 20px;
+    font-family: cursive;
+    color: aliceblue;
+}
+.tab3 p
+{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 23px;
+}
+.tab3 p a 
+{
+    text-decoration:none;
+    color:darkgoldenrod;
+    font-size: 16px;
+}
+.tab3 button
+{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: darkgrey;
+    background: linear-gradient(rgb(238, 236, 236),rgb(214, 231, 241));
+    transition: ease-in-out all 0.3s;
+}
+.tab3 button:hover
+{
+    translate: 0px 3px;
+}
+.tab3 button a
+{
+    text-decoration: none;
+}
+.mtab1 .tab3:hover
+{
+    background-color: rgb(86, 206, 140);
+}
+
+
+
+
+.foot
+{
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.055);
+    box-shadow: 3px 2px 3px rgb(238, 238, 228);
+    position: relative;
+}
+.foot .txt
+{
+    position: absolute;
+    top: 0;
+    right: 43%;
+}
+.foot .txt h2
+{
+    font-size: 20px;
+    font-family: cursive;
+    font-family: monospace;
+}
+.txt nav{
+    display: flex;
+    gap: 10px;
+}
+.foot .txt  img
+{
+    margin-top: 40px;
+    border-radius: 50%;
+}
+/* index.html ends */
+/* about.html starts */
