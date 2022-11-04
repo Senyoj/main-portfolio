@@ -348,7 +348,8 @@ display: flex;
 }
 .foot .txt
 {
-    position: absolute;
+    position: absol
+    ute;
     top: 0;
     right: 43%;
 }
